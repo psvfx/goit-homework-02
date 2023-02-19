@@ -1,5 +1,10 @@
 :root {
   --secondary-font: 'Raleway', sans-serif;
+  --subtitle-color: #2e2f42;
+  --background-color: #2e2f42;
+  --main-text-color: #434455;
+  --logo-span-color: #4d5ae5;
+  --link-hover-color: #404bbf;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -32,6 +37,12 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -55,7 +66,7 @@ header {
   color: #2e2f42;
 }
 .header-logo span {
-  color: #4d5ae5;
+  color: var(--logo-span-color);
 }
 .header-list {
 }
@@ -70,7 +81,7 @@ header {
 }
 .header-link:hover,
 .header-link:focus {
-  color: #404bbf;
+  color: var(--link-hover-color);
 }
 .address {
 }
@@ -87,11 +98,11 @@ header {
 }
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf;
+  color: var(--link-hover-color);
 }
 /* -------------Hero------------- */
 .hero {
-  background: #2e2f42;
+  background: var(--background-color);
 }
 .hero-title {
   font-size: 56px;
@@ -125,14 +136,10 @@ header {
 .advantages-item {
 }
 .advantages-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--subtitle-color);
 }
 .advantages-text {
-  color: #434455;
+  color: var(--main-text-color);
 }
 /* -------------Doing------------- */
 .doing {
@@ -157,18 +164,93 @@ header {
 .team-link {
 }
 .team-subtitle {
+  text-align: center;
+  color: var(--subtitle-color);
 }
 .team-text {
+  text-align: center;
+  color: var(--main-text-color);
+}
+/* -------------Portfolio-Filter------------- */
+.filter {
+}
+.filter-list {
+}
+.filter-item {
+}
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #ffffff;
+  background: #404bbf;
+  cursor: pointer;
+}
+/* -------------Portfolio/First-Projects------------- */
+.first-projects {
+}
+.first-projects-list {
+}
+.first-projects-item {
+}
+.first-projects-link {
+}
+.first-projects-subtitle {
+  color: var(--subtitle-color);
+}
+.first-projects-text {
+  color: var(--main-text-color);
+}
+/* -------------Portfolio/Second-Projects------------- */
+.second-projects {
+}
+.second-projects-list {
+}
+.second-projects-item {
+}
+.second-projects-link {
+}
+.second-projects-subtitle {
+  color: var(--subtitle-color);
+}
+.second-projects-text {
+  color: var(--main-text-color);
+}
+/* -------------Portfolio/Third-Projects------------- */
+.third-projects {
+}
+.third-projects-list {
+}
+.third-projects-item {
+}
+.third-projects-link {
+}
+.third-projects-subtitle {
+  color: var(--subtitle-color);
+}
+.third-projects-text {
+  color: var(--main-text-color);
 }
 /* -------------Footer------------- */
 footer {
-  background: #2e2f42;
+  background: var(--background-color);
 }
 .footer-logo {
   color: #f4f4fd;
 }
 .footer-logo span {
-  color: #4d5ae5;
+  color: var(--logo-span-color);
 }
 .footer-text {
   color: #e7e9fc;
