@@ -8,6 +8,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
 }
 .logo {
   font-family: var(--secondary-font);
@@ -56,22 +58,22 @@ body {
   overflow: hidden;
 }
 /* -------------Header------------- */
-header {
+/* header {
 }
 .header {
 }
 .header-navigation {
-}
+} */
 .header-logo {
   color: #2e2f42;
 }
 .header-logo span {
   color: var(--logo-span-color);
 }
-.header-list {
+/* .header-list {
 }
 .header-item {
-}
+} */
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -83,12 +85,12 @@ header {
 .header-link:focus {
   color: var(--link-hover-color);
 }
-.address {
+/* .address {
 }
 .address-list {
 }
 .address-item {
-}
+} */
 .address-link {
   font-style: normal;
   font-size: 16px;
@@ -129,12 +131,12 @@ header {
   cursor: pointer;
 }
 /* -------------Advantages------------- */
-.advantages {
+/* .advantages {
 }
 .advantages-list {
 }
 .advantages-item {
-}
+} */
 .advantages-subtitle {
   color: var(--subtitle-color);
 }
@@ -142,27 +144,27 @@ header {
   color: var(--main-text-color);
 }
 /* -------------Doing------------- */
-.doing {
-}
+/* .doing {
+} */
 .doing-title {
   color: #2e2f42;
 }
-.doing-list {
+/* .doing-list {
 }
 .doing-item {
-}
+} */
 /* -------------Team------------- */
 .team {
   background: #f4f4fd;
 }
-.team-title {
+/* .team-title {
 }
 .team-list {
 }
 .team-item {
 }
 .team-link {
-}
+} */
 .team-subtitle {
   text-align: center;
   color: var(--subtitle-color);
@@ -171,13 +173,13 @@ header {
   text-align: center;
   color: var(--main-text-color);
 }
-/* -------------Portfolio-Filter------------- */
-.filter {
+/* -------------Portfolio-Filter+Projects------------- */
+/* .filter {
 }
 .filter-list {
 }
 .filter-item {
-}
+} */
 .filter-btn {
   font-weight: 500;
   font-size: 16px;
@@ -197,53 +199,21 @@ header {
   background: #404bbf;
   cursor: pointer;
 }
-/* -------------Portfolio/First-Projects------------- */
-.first-projects {
+/* .projects-list {
 }
-.first-projects-list {
+.projects-item {
 }
-.first-projects-item {
-}
-.first-projects-link {
-}
-.first-projects-subtitle {
+.projects-link {
+} */
+.projects-subtitle {
   color: var(--subtitle-color);
 }
-.first-projects-text {
+.projects-text {
   color: var(--main-text-color);
 }
-/* -------------Portfolio/Second-Projects------------- */
-.second-projects {
-}
-.second-projects-list {
-}
-.second-projects-item {
-}
-.second-projects-link {
-}
-.second-projects-subtitle {
-  color: var(--subtitle-color);
-}
-.second-projects-text {
-  color: var(--main-text-color);
-}
-/* -------------Portfolio/Third-Projects------------- */
-.third-projects {
-}
-.third-projects-list {
-}
-.third-projects-item {
-}
-.third-projects-link {
-}
-.third-projects-subtitle {
-  color: var(--subtitle-color);
-}
-.third-projects-text {
-  color: var(--main-text-color);
-}
-/* -------------Footer------------- */
-footer {
+
+/* -----------Footer-------------*/
+.footer {
   background: var(--background-color);
 }
 .footer-logo {
